@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>js_practice_01</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script src="https://kit.fontawesome.com/512a2a8875.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    
+    
+    
+    
+    
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="header">
+              <h1>Here I have shown two function using js.</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mutiplication">
+              <h3>Multiplication for 5</h3>
+              <script>
+
+                var number1 = 1;
+                var number2 = 5;
+                var result;
+
+                while(number1 <= 10){
+                  var result = number1*number2;
+                  document.write(number1+ ". " + number2 + " X " + number1 + " =" + result + "<br>");
+                  number1++;
+                }
+
+              </script>
+            </div>
+          </div>
+          <div class="col-md-6">
+
+            <div class="result">
+              <h3>Accademic Result</h3>
+            
+              <script>
+
+                var markes = prompt("Enter your marks...");
+
+                if(markes >= 90 && markes <=100){
+                  document.write("You have got Golden 'A+' ");
+
+                }else if(markes >= 80 && markes <=89){
+                  document.write("You have got 'A+' ");
+
+                }else if(markes >= 70 && markes <=79){
+                  document.write("You have got 'A' ");
+
+                }else if(markes >= 60 && markes <=69){
+                  document.write("You have got 'A-' ");
+
+                }else if(markes >= 50 && markes <=59){
+                  document.write("You have got 'B' ");
+
+                }else if(markes >= 40 && markes <=49){
+                  document.write("You have got 'C' ");
+
+                }else if(markes >= 33 && markes <=39){
+                  document.write("You have got 'D' ");
+
+                }else if(markes >= 0 && markes <=32){
+                  document.write("You have got 'F' ");
+
+                }else{
+                  document.write("Undefine Number");
+                }
+              
+
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>

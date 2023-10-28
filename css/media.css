@@ -1,0 +1,319 @@
+/* Large Section */
+
+@media(max-width:1199px){
+    .header_logo img{
+        width: 90%;
+        margin-left: 0px;
+    }
+    .header_info h5{
+        font-size: 16px;
+    }
+    .header_info h6{
+        font-size: 14px;
+    }
+    .info_icon i{
+        font-size: 22px;
+    }
+    .nav-link{
+        margin: 0px 5px;
+    }
+    .carousel_info h1{
+        font-size: 34px;
+    }
+    .carousel_info_02 h2{
+        font-size: 36px;
+    }
+    .carousel_info_02 h1{
+        font-size: 55px;
+    }
+    .carousel_info p{
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .carousel_section .owl-dots{
+        bottom: 5%;
+    }
+    .welcome_image img{
+        width: 454px;
+    }
+    .welcome_info_title h1{
+        font-size: 28px;
+    }
+    .welcome_info_title p{
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .welcome_infoArea{
+        margin-right: 5%;
+    }
+    .welcome_info .info_unit h6{
+        font-size: 16px;
+    }
+    .welcome_info .info_unit p{
+        font-size: 12px;
+    }
+    .tm_carousel .owl-nav .owl-prev span{
+        bottom: 30%;
+        transform: translateX(-10px);
+    }
+    .tm_carousel .owl-nav .owl-next span{
+        bottom: 30%;
+        transform: translateX(10px);
+    }
+    .footer_signUp input{
+        width: 63%;
+    }
+    .footer_social_icon{
+        flex-wrap: wrap;
+    }
+    .footer_social_icon h6{
+        font-size: 18px;
+        width: 40%;
+    }
+    .footer_icons {
+        display: flex;
+        width: 80%;
+    }
+    .footer_social_icon .social_icon{
+        margin: 0;
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+}
+
+/* Medium Section */
+
+@media(max-width:991px){
+    .header_top{
+        padding: 20px 0px;
+    }
+    .info_icon i{
+        font-size: 20px;
+    }
+    .header_info h5{
+        font-size: 15px;
+    }
+    .header_info h6{
+        font-size: 11px;
+    }
+    .navbar-expand-lg .navbar-toggler{
+        display: none;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+    .navbar-expand-lg .navbar-collapse ul{
+        flex-direction: row;
+    }
+    .nav-link{
+        padding: 10px;
+        margin: 0px;
+        font-size: 14px;
+    }
+    .btn_apointment{
+        font-size: 14px;
+        padding: 10px;
+    }
+    .navbar .container-fluid{
+        margin: 0;
+        padding: 0;
+    }
+    .carousel_info_02 h2{
+        font-size: 27px !important;
+    }
+    .carousel_info_02 h1{
+        font-size: 40px !important;
+    }
+    .carousel_info h2, .carousel_info h1{
+        font-size: 25px;
+    }
+    .carousel_info p{
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .carousel_section{
+        min-height: 65vh;
+    }
+    .carousel_infoArea{
+        height: 65vh;
+    }
+    .btn_learnMore, .btn_bookNow{
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+    .welcome_info_title h1{
+        font-size: 26px;
+    }
+    .welcome_image img {
+        width: 42%;
+        left: 2%;
+    }
+    .welcome_info_title p {
+        line-height: 24px;
+        word-spacing: -1px;
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .welcome_info{
+        margin-bottom: 0px;
+    }
+    .info_unit {
+        width: 48%;
+        margin-bottom: 15px;
+    }
+    .info_unit h6{
+        font-size: 16px;
+    }
+    .info_unit p{
+        font-size: 14px;
+    }
+    .section_title h1{
+        font-size: 26px;
+    }
+    .service_info {
+        margin: 10px;
+        padding: 16px;
+    }
+    .service_info .images{
+        width: 15%;
+    }
+    .service_info .image_info {
+        width: 85%;
+        margin-left: 5px;
+    }
+    .service_info .image_info h6{
+        font-size: 15px;
+    }
+    .service_info p{
+        font-size: 15px;
+    }
+    .service_info a{
+        font-size: 15px;
+    }
+    .service_info a i{
+        font-size: 15px;
+    }
+    .box_title h3{
+        font-size: 22px;
+    }
+    .box_title p{
+        font-size: 14px;
+    }
+    .price {
+        padding: 10px 0px;
+    }
+    .price h1{
+        font-size: 28px;
+    }
+    .price p{
+        font-size: 14px;
+    }
+    .price_info p{
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .pricing_box .btn_signUp{
+        padding: 5px 10px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .tm_carousel_images img{
+        width: 60% !important;
+    }
+    .tm_carousel_images .owl-carousel .owl-stage{
+        display: flex;
+        align-items: center;
+    }
+    .tm_carousel .owl-nav .owl-prev span{
+        bottom: 30%;
+        transform: translateX(-20px);
+    }
+    .tm_carousel .owl-nav .owl-next span{
+        bottom: 30%;
+        transform: translateX(20px);
+    }
+    .tm_carouselArea .section_titleArea p {
+        margin: 10px 0px;
+        font-size: 14px;
+    }
+    .footer_info_title img{
+        width: 70%;
+    }
+    .footer_info_title h4{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .footer_info_content h5{
+        font-size: 12px;
+        margin-bottom: 20px;
+        line-height: 20px;
+        padding-bottom: 0px;
+    }
+    .content_icon i{
+        font-size: 20px;
+    }
+    .content{
+        padding-left: 4px;
+    }
+    .footer_content a{
+        font-size: 12px;
+    }
+    .footer_content p{
+        font-size: 11px;
+        margin-top: 0px;
+    }
+    .content_image{
+        margin-right: 10px;
+    }
+    .content_image img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .footer_top{
+        padding-bottom: 10px;
+    }
+    .footer_bottom p{
+        font-size: 14px;
+    }
+    .footer_signUp{
+        display: contents;
+    }
+    .footer_signUp input{
+        width: 100%;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+    .footer_signUp a{
+        padding: 5px 10px;
+        width: 100%;
+    }
+    .footer_social_icon{
+        margin-top: 20px;
+    }
+    .footer_icons {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+
+}
+
+/* Small Section */
+
+@media(max-width:767px){
+
+}
+
+/* Extra Small Section */
+
+@media(max-width:575px){
+    
+}
+
+/* Mobile Version */
+
+@media(max-width:375px){
+    
+}
